@@ -75,7 +75,7 @@ let a=0
       
       return(
         <>
-       <div>
+       <div id="qz">
         <h1>Quiz </h1>
         <div>
           <Link to='/quiz'>

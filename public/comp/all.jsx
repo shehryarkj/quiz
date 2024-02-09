@@ -37,7 +37,7 @@ function All(){
       ];
       
     return(
-        <div>
+        <div >
         <h1>All Quiz Questions</h1>
         {QuizData.map((questionData, index) => (
           <div key={index}>

@@ -4,13 +4,26 @@
   padding: 2rem;
   text-align: center;
 }
+*{
+  transition: 0.5s;
+}
+#qz{
+  border: brown solid;
+  padding: 50px;
+  border-radius: 30px;
+}
 textarea{
   padding-left: 10px;
   outline: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 li{
-  list-style:decimal
+  list-style:numeric;
+  border: solid 1px;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  
 }
 li:hover{
   border:solid black 1px;
